@@ -5,6 +5,18 @@
 
 <head>
 <style>
+ul.breadcrumb {
+  padding: 8px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {color: black;}
 .time {
   text-align: center;
   position: absolute;
@@ -12,30 +24,17 @@
   margin-left: auto;
   margin-right: auto;
   }
-.links {
-  text-align: top;
-  position: absolute;
-  margin-left: 50%;
-  top:50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  }
- a:link {
-  text-decoration: none;
-  }
- a:hover {
-  color: black;
-  }
 </style>
 </head>
  
 <body style="background-color:white;">
 <div class="time"><span class="js-time"></span> <span class="js-day"></span></div>
 
-<div class="links">
-<p><a href="">Photography</a></p><br>
-<p><a href="">Projects</a></p>
-</div>
+<ul class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Projects</a></li>
+  <li><a href="#">Photography</a></li>
+</ul>
 
 <script src="time.js"></script>
 
