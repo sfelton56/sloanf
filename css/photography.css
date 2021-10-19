@@ -9,7 +9,7 @@ ul.breadcrumb li+li:before {
   color: black;
   content: "/\00a0";
 }
-p{text-align: center; position: relative;margin-top: 30px}
+h1{text-align: center; position: relative;margin-top: 30px}
 ul.breadcrumb li a {color: black;}
 .time {
   	text-align: center;
