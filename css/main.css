@@ -17,4 +17,9 @@ bottom: 10px;
 margin-left: auto;
 margin-right: auto;
   }
-
+body {
+display: block;
+margin: 0px;
+background-color:white;
+height:40rem
+}
