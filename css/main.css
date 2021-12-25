@@ -26,6 +26,11 @@ body {
   background-color: #DDDDE2;
   height:40rem
 }
+h1{
+	text-align: center;
+	position: relative;
+	margin-top: 30px
+}
 .photo{
   display: block;
   margin-left: auto;
