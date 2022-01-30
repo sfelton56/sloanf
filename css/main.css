@@ -50,7 +50,7 @@ img{
   border-radius: 25px;
   background: #FFFFFF;
   padding: 20px; 
-  width: 80%;
+  width: fit-content;
   height: fit-content;
   text-align: center;
 }
