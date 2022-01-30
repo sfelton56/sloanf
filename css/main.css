@@ -27,16 +27,16 @@ body {
   height:40rem
 }
 h1{
-	text-align: center;
-	position: relative;
-	margin-top: 30px
+  text-align: center;
+  position: relative;
+  margin-top: 30px
 }
 .photo{
   display: block;
   margin-left: auto;
   margin-right: auto;
-	margin-top:20px;
-	padding:12px 24px;
+  margin-top:20px;
+  padding:12px 24px;
   max-width:980px;
   max-width:90%;
   height:auto;
@@ -44,4 +44,12 @@ h1{
 }
 img{
   vertical-align:middle
+}
+#rcorners {
+  border-radius: 25px;
+  background: #FFFFFF;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+  text-align: center;
 }
