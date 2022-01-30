@@ -46,10 +46,11 @@ img{
   vertical-align:middle
 }
 #rcorners {
+  margin: auto;
   border-radius: 25px;
   background: #FFFFFF;
   padding: 20px; 
-  width: 200px;
-  height: 150px;
+  width: 80%;
+  height: fit-content;
   text-align: center;
 }
