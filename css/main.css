@@ -23,7 +23,7 @@ ul.breadcrumb li a {color: black;}
 body {
   display: block;
   margin: 0px;
-  background-color: #DDDDE2;
+  background-color: #ffffff;
   height:40rem
 }
 h1{
@@ -45,9 +45,19 @@ h1{
 img{
   vertical-align:middle
 }
-#rcorners {
+#bio {
   margin: auto;
-  border-radius: 25px;
+  border-radius: 20px;
+  background: #FFFFFF;
+  padding: 20px; 
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+}
+#rcorners {
+
+  margin: 20px;
+  border-radius: 20px;
   background: #FFFFFF;
   padding: 20px; 
   width: fit-content;
