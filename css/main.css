@@ -46,8 +46,9 @@ img{
   vertical-align:middle
 }
 .textboxes {
-  display: table;
-  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 #bio {
   margin: auto;
