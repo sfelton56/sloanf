@@ -93,7 +93,7 @@ a:active {
   border-radius: 5px;
   margin: 40px auto;
 }
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
   .card {
     width: 70%;
   }
