@@ -85,7 +85,6 @@ a:active {
 }
 #textboxes {
   position: relative;
-  left: 50%;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -93,6 +92,11 @@ a:active {
   width: 40%;
   border-radius: 5px;
   margin: 40px auto;
+}
+@media screen and (min-width: 800px) {
+  .card {
+    width: 70%;
+  }
 }
 .card:hover {
   box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
